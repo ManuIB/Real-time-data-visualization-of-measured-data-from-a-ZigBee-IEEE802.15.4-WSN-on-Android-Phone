@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity -->
+    <string name="app_name">WSN</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+    <string name="browser">Browser</string>
+    <string name="viewgraphs">Real-time Graphs</string>
+    <string name="about">About</string>
+    <string name="savedata">Save Data</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main -->
+    <string name="developer">©2013, All rights reserved</string>
+    <string name="stringDescriptPhotoDevices">Image Devices</string>
+    <string name="stringDescriptPhotoFHFFM">Fachhochschule Frankfurt am Main</string>
+    <string name="stringDescriptPhotoUCA">Universidad de Cádiz</string>
+
+    <!-- About -->
+    <string name="app_name_complete">Bachelor\'s Thesis</string>
+    <string name="app_descript_complete">Real-time data visualization of measured data from a ZigBee/IEEE802.15.4 WSN on Android Phone</string>
+    <string name="app_developed">Developed by:</string>
+    <string name="app_author">Manuel Ibáñez Márquez</string>
+    <string name="app_contact">Contact:</string>
+    <string name="app_email">demonk7@gmail.com</string>
+
+    <!-- Home -->
+    <string name="stringsavedata">Save Data</string>
+    <string name="stringDescriptsavedata">Save Data</string>
+    <string name="stringBrowser">Browser</string>
+    <string name="stringDescriptBrowser">Browser</string>
+    <string name="stringGraphs">Real-time Graphs</string>
+    <string name="stringDescriptGraphs">Real-time Graphs</string>
+    <string name="stringAbout">About</string>
+    <string name="stringDescriptAbout">About</string>
+    <string name="stringLogoutMe">Exit</string>
+    <string name="stringDescriptLogoutMe">Exit</string>
+
+    <!-- Save Data -->
+    <string name="stringMobile">Coordinator</string>
+    <string name="stringDescriptMobile">Coordinator</string>
+    <string name="savedataBtnStart">Start Connection</string>
+    <string name="savedataBtnStop">Stop Connection</string>
+    <string name="stringScanDevices">Start Scan</string>
+    <string name="stringStopScan">Stop Scan</string>
+    <string name="stringOpenDevice">Open device port(1) OK</string>
+    <string name="stringCloseDevice">Close device port(1) OK</string>
+    <string name="stringNotDevice">Device not open yet&#8230;</string>
+    <string name="stringCoordConnected">Coordinator Connected</string>
+    <string name="stringCoordDisconnected">Coordinator Disconnected</string>
+
+    <!-- Browser -->
+    <string name="no_data">No Data</string>
+    <string name="deleteSuccessfully">Seleted Successfully</string>
+    <string name="UploadSuccessfully">File Upload on Server Successfully</string>
+    <string name="stringLavelUser">User</string>
+
+    <!-- Menu Browser -->
+    <string name="stringCtxLstDelFil">Delete File</string>
+    <string name="stringCtxLstUplSer">Upload on Server</string>
+
+    <!-- Login & Register -->
+    <string name="PleaseWait">Loading&#8230; Please Wait</string>
+    <string name="Registering">Registering&#8230; Please Wait</string>
+    <string name="stringHintEmail">Email</string>
+    <string name="stringNameEmail">Email: </string>
+    <string name="stringHintFullName">Full Name</string>
+    <string name="stringFullName">Full Name: </string>
+    <string name="stringHintPassword">Password</string>
+    <string name="stringNamePassword">Password: </string>
+    <string name="stringBtLogin">Log in</string>
+    <string name="stringForgotPass">Forgot Password?</string>
+    <string name="stringBtSignUp">Sign in</string>
+    <string name="stringTextSignUp">I don\'t have account. Register Me!</string>
+    <string name="stringTextLoginMe">Already registered. Login Me!</string>
+    <string name="stringTitle">Welcome!</string>
+    <string name="stringFieldsBlank">Don\'t leave fields blank</string>
+    <string name="stringNoInternetConnection">No Internet Connection!</string>
+    <string name="stringNoInternet">Sorry, but you need internet connection for make your register</string>
+    <string name="stringInternetConnection">Internet Connection</string>
+    <string name="stringInternet">You have internet connection</string>
+    <string name="stringLoginError">Error in Login (Email / Password incorrect)</string>
+    <string name="stringRegisterError">Error in Register (This email is already registered)</string>
+    
+    <!-- View Graphs -->
+    <string name="stringViewGraphsBtBattery">Battery</string>
+    <string name="stringViewGraphsBtTemperature">Temperature</string>
+    <string name="stringViewGraphsBtLight">Light</string>
+</resources>

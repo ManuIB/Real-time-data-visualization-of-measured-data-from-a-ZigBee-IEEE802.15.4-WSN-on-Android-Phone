@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="10dip"
+    tools:context=".AboutActivity" >
+
+    <ImageView
+        android:id="@+id/ivFHFFM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/stringDescriptPhotoFHFFM"
+        android:scaleType="matrix"
+        android:src="@drawable/fhffm"
+        tools:context=".AboutActivity" />
+
+    <ImageView
+        android:id="@+id/ivUCA"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:layout_alignRight="@+id/ivFHFFM"
+        android:layout_alignTop="@+id/ivFHFFM"
+        android:contentDescription="@string/stringDescriptPhotoUCA"
+        android:src="@drawable/uca"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer"
+        android:textSize="14sp"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAppEmail"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_contact"
+        android:textSize="15sp"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAppDev"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/app_email"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAppContact"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_author"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAppAuthor"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_developed"
+        android:textSize="15sp"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppNameComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivUCA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="@string/app_name_complete"
+        android:textSize="18sp"
+        tools:context=".AboutActivity" />
+
+    <TextView
+        android:id="@+id/tvAppDescriptComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivFHFFM"
+        android:layout_below="@+id/tvAppNameComplete"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="@string/app_descript_complete"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:context=".AboutActivity" />
+
+</RelativeLayout>

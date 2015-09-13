@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity" >
+
+    <TableLayout
+        android:id="@+id/tLPrincipal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" >
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/lLCBtnsavedata"
+                style="@style/lLButton"
+                android:layout_width="50sp"
+                android:layout_height="150sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iBtnsavedata"
+                    style="@style/HomeUtilsMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/stringDescriptsavedata"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/savedata"
+                    tools:context=".HomeActivity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/stringsavedata"
+                    android:textStyle="bold"
+                    tools:context=".HomeActivity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lLCBtnBrowser"
+                style="@style/lLButton"
+                android:layout_width="50sp"
+                android:layout_height="150sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iBtnBrowser"
+                    style="@style/HomeUtilsMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/stringDescriptBrowser"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/browser"
+                    tools:context=".HomeActivity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/stringBrowser"
+                    android:textStyle="bold"
+                    tools:context=".HomeActivity" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/lLCBtnGraphs"
+                style="@style/lLButton"
+                android:layout_width="50sp"
+                android:layout_height="150sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iBtnGraphs"
+                    style="@style/HomeUtilsMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/stringDescriptGraphs"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/graphs"
+                    tools:context=".HomeActivity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/stringGraphs"
+                    android:textStyle="bold"
+                    tools:context=".HomeActivity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lLCBtnAbout"
+                style="@style/lLButton"
+                android:layout_width="50sp"
+                android:layout_height="150sp"
+                android:layout_weight="1"
+                android:onClick="showCarPosition"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iBtnAbout"
+                    style="@style/HomeUtilsMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/stringDescriptAbout"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/about"
+                    tools:context=".HomeActivity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/stringAbout"
+                    android:textStyle="bold"
+                    tools:context=".HomeActivity" />
+            </LinearLayout>
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/lLCBtnLogOut"
+            style="@style/lLButton"
+            android:layout_width="50sp"
+            android:layout_height="150sp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/iBtnLogOut"
+                style="@style/HomeUtilsMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/stringDescriptLogoutMe"
+                android:duplicateParentState="true"
+                android:src="@drawable/logout"
+                tools:context=".HomeActivity" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/stringLogoutMe"
+                android:textStyle="bold"
+                tools:context=".HomeActivity" />
+        </LinearLayout>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/lLConfiguracion"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.40" >
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/graph1"
+            android:layout_width="fill_parent"
+            android:layout_height="204dp"
+            android:orientation="vertical" />
+        	</LinearLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tLPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <TableRow>
+
+            <LinearLayout
+                style="@style/lLButton"
+                android:layout_weight="1"
+                android:onClick="showCarPosition"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ViewGraphsBtBattery"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="onClickBattery"
+                    android:text="@string/stringViewGraphsBtBattery" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/lLButton"
+                android:layout_weight="1"
+                android:onClick="showCarPosition"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ViewGraphsBtTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="onClickTemperature"
+                    android:text="@string/stringViewGraphsBtTemperature" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/lLButton"
+                android:layout_weight="1"
+                android:onClick="showCarPosition"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ViewGraphsBtLight"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="onClickLight"
+                    android:text="@string/stringViewGraphsBtLight" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/ivDevices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/stringDescriptPhotoDevices"
+        android:scaleType="fitCenter"
+        android:src="@drawable/inicio"
+        tools:context=".MainActivity" />
+
+    <ImageView
+        android:id="@+id/ivFHFFM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/stringDescriptPhotoFHFFM"
+        android:scaleType="matrix"
+        android:src="@drawable/fhffm"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/tvDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivDevices"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer"
+        android:textStyle="bold"
+        tools:context=".MainActivity" />
+
+    <ImageView
+        android:id="@+id/ivUCA"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:layout_alignRight="@+id/ivDevices"
+        android:layout_alignTop="@+id/ivDevices"
+        android:contentDescription="@string/stringDescriptPhotoUCA"
+        android:src="@drawable/uca"
+        tools:context=".MainActivity" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvDeveloper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/tvPleaseWait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvDeveloper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="right"
+        android:text="@string/PleaseWait"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/tvAuthorDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvDeveloper"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_author"
+        android:textStyle="bold"
+        tools:context=".MainActivity" />
+
+</RelativeLayout>

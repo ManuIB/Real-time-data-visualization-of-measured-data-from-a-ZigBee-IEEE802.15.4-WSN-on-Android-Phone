@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity -->
+    <string name="app_name">WSN</string>
+    <string name="log_in">Iniciar Sesión</string>
+    <string name="register">Registrar</string>
+    <string name="home">Inicio</string>
+    <string name="browser">Explorador</string>
+    <string name="viewgraphs">Gráficas Tiempo Real</string>
+    <string name="about">Acerda de&#8230;</string>
+    <string name="savedata">Topología</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- Main -->
+    <string name="developer">©2013, Todos los derechos reservados</string>
+    <string name="stringDescriptPhotoDevices">Image Devices</string>
+    <string name="stringDescriptPhotoFHFFM">Fachhochschule Frankfurt am Main</string>
+    <string name="stringDescriptPhotoUCA">Universidad de Cádiz</string>
+
+    <!-- About -->
+    <string name="app_name_complete">Bachelor\'s Thesis</string>
+    <string name="app_descript_complete">Real-time data visualization of measured data from a ZigBee/IEEE802.15.4 WSN on Android Phone</string>
+    <string name="app_developed">Desarrollado por:</string>
+    <string name="app_author">Manuel Ibáñez Márquez</string>
+    <string name="app_contact">Contacto:</string>
+    <string name="app_email">demonk7@gmail.com</string>
+
+    <!-- Home -->
+    <string name="stringsavedata">Salvar Datos</string>
+    <string name="stringDescriptsavedata">Salvar Datos</string>
+    <string name="stringBrowser">Explorador</string>
+    <string name="stringDescriptBrowser">Explorador</string>
+    <string name="stringGraphs">Gráficas Tiempo Real</string>
+    <string name="stringDescriptGraphs">Gráficas Tiempo Real</string>
+    <string name="stringAbout">Acerca de&#8230;</string>
+    <string name="stringDescriptAbout">Acerca de&#8230;</string>
+    <string name="stringLogoutMe">Salir</string>
+    <string name="stringDescriptLogoutMe">Salir</string>
+
+    <!-- Save Data -->
+    <string name="stringMobile">Coordinator</string>
+    <string name="stringDescriptMobile">Coordinator</string>
+    <string name="savedataBtnStart">Inicio Conexión</string>
+    <string name="savedataBtnStop">Parar Conexión</string>
+    <string name="stringScanDevices">Iniciar Escaner</string>
+    <string name="stringStopScan">Parar Escaner</string>
+    <string name="stringOpenDevice">Puerto de dispositivo abierto (1) OK</string>
+    <string name="stringCloseDevice">Puerto de dispositivo cerrado (1) OK</string>
+    <string name="stringNotDevice">El dispositivo aún no está conectado</string>
+    <string name="stringCoordConnected">Coordinator Conectado</string>
+    <string name="stringCoordDisconnected">Coordinator Desconectado</string>
+
+    <!-- Browser -->
+    <string name="no_data">No hay datos</string>
+    <string name="deleteSuccessfully">Eliminado con Éxito</string>
+    <string name="UploadSuccessfully">Archivo Subido al Servidor con Éxito</string>
+    <string name="stringLavelUser">Usuario</string>
+
+    <!-- Menu Browser -->
+    <string name="stringCtxLstDelFil">Eliminar Archivo</string>
+    <string name="stringCtxLstUplSer">Subir al Servidor</string>
+
+    <!-- Login & Register -->
+    <string name="PleaseWait">Cargando&#8230; Espere por favor</string>
+    <string name="Registering">Registrando&#8230; Espere por favor</string>
+    <string name="stringHintEmail">Email</string>
+    <string name="stringNameEmail">Email: </string>
+    <string name="stringHintFullName">Nombre Completo</string>
+    <string name="stringFullName">Nombre Completo: </string>
+    <string name="stringHintPassword">Password</string>
+    <string name="stringNamePassword">Password: </string>
+    <string name="stringBtLogin">Iniciar Sesión</string>
+    <string name="stringForgotPass">¿Olvidó su password?</string>
+    <string name="stringBtSignUp">Registrarse</string>
+    <string name="stringTextSignUp">¿No tiene una cuenta? Registrese!</string>
+    <string name="stringTextLoginMe">Ya estoy registrado. Inicie sesión!</string>
+    <string name="stringTitle">Bienvenido!</string>
+    <string name="stringFieldsBlank">No deje campos en blanco</string>
+    <string name="stringNoInternetConnection">Sin conexión a Internet!</string>
+    <string name="stringNoInternet">Lo sentimos, pero necesita conexión a internet para hacer su registro</string>
+    <string name="stringInternetConnection">Conexión a Internet</string>
+    <string name="stringInternet">Tiene conexión a internet</string>
+    <string name="stringLoginError">Error al iniciar sesión (correo electrónico / contraseña incorrecta)</string>
+    <string name="stringRegisterError">Error al registrarse (Este email ya está registrado)</string>
+
+    <!-- Real-time Graphs -->
+    <string name="stringViewGraphsBtBattery">Bateria</string>
+    <string name="stringViewGraphsBtTemperature">Temperatura</string>
+    <string name="stringViewGraphsBtLight">Luz</string>
+    
+</resources>
